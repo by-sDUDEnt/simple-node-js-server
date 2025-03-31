@@ -8,3 +8,4 @@ docker build -t bysdudent/simple-server .
 
 docker run -d -p 80:3000 bysdudent/simple-server 
 
+testing
