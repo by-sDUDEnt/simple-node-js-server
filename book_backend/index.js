@@ -13,7 +13,7 @@ const { Client } = require('pg');
 const dbConfig = {
 	user: 'postgres',
 	password: '123456',
-	host: 'postgresdb',
+	host: 'postgres',
 	port: '5432',
 	database: 'host',
 };
@@ -32,7 +32,7 @@ client
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Hello, World!!!');
 });
 app.get('/users', async (req, res) => {
 	try {
